@@ -1,4 +1,4 @@
-# China Soybean oil Production Descriptive Statistics 
+# 1 China Soybean oil Production Descriptive Statistics 
 year = seq(1980,2021)
 year
 #Soybean Oil Production China =SBOPC
@@ -24,7 +24,7 @@ library(moments)
 skewness(SBOPC)
 kurtosis(SBOPC)
 
-# India Soybean oil Production Descriptive Statistics 
+# 2 India Soybean oil Production Descriptive Statistics 
 Year = seq(1980,2021)
 Year
 #Soybean Oil Production India =SBOPI
@@ -50,7 +50,7 @@ library(moments)
 skewness(SBOPI)
 kurtosis(SBOPI)
 
-# Japan Soybean oil Production Descriptive Statistics
+# 3 Japan Soybean oil Production Descriptive Statistics
 year = seq(1980,2021)
 year
 #Soybean Oil Production Japan =SBOPJ
@@ -75,31 +75,7 @@ library(moments)
 skewness(SBOPJ)
 kurtosis(SBOPJ)
 
-# Malaysia Soybean oil Production Descriptive Statistics 
-year = seq(1980,2021)
-year
-#Soybean Oil Production Malaysia =SBOPM
-SBOPM = c(25,29,29,19,24,35,39,53,50,65,78,78,77,67,92,97,109,63,60,54,77,91,71,71,71,72,66,
-          58,65,68,72,71,70,66,77,105,96,87,93,94,95,90)
-SBOPM
-sum(SBOPM)
-mean(SBOPM)
-median(SBOPM)
-min(SBOPM)
-max(SBOPM)
-sd(SBOPM)
-var(SBOPM)
-range(SBOPM)
-range = max(SBOPM)-min(SBOPM)
-range
-range(SBOPM)
-quantile(SBOPM)
-
-library(moments)
-skewness(SBOPM)
-kurtosis(SBOPM)
-
-# South Korea Soybean oil Production Descriptive Statistics 
+# 4 South Korea Soybean oil Production Descriptive Statistics 
 year = seq(1980,2021)
 year
 #Soybean Oil Production Southkorea = SBOPSK
@@ -122,4 +98,29 @@ quantile(SBOPSK)
 library(moments)
 skewness(SBOPSK)
 kurtosis(SBOPSK)
+
+
+# 5 Malaysia Soybean oil Production Descriptive Statistics 
+year = seq(1980,2021)
+year
+#Soybean Oil Production Malaysia =SBOPM
+SBOPM = c(25,29,29,19,24,35,39,53,50,65,78,78,77,67,92,97,109,63,60,54,77,91,71,71,71,72,66,
+          58,65,68,72,71,70,66,77,105,96,87,93,94,95,90)
+SBOPM
+sum(SBOPM)
+mean(SBOPM)
+median(SBOPM)
+min(SBOPM)
+max(SBOPM)
+sd(SBOPM)
+var(SBOPM)
+range(SBOPM)
+range = max(SBOPM)-min(SBOPM)
+range
+range(SBOPM)
+quantile(SBOPM)
+
+library(moments)
+skewness(SBOPM)
+kurtosis(SBOPM)
 
